@@ -1,0 +1,23 @@
+.button {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75px;
+	height: 75px;
+}
+
+.button h1 {
+	background-color: white;
+	color: #444;
+	width: 95%;
+	height: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+}
+
+.button h1:hover {
+	cursor: pointer;
+}
